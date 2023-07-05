@@ -3,9 +3,7 @@ import preprocessor
 import helper
 import matplotlib.pyplot as plt
 import seaborn as sns
-import requests
 
-register('VCPWJ60Kfn9XAHrZZwwFtsvh5J8OTpe25t6hZxCH', 'TqNPKkr294kXqs9sqpxVNnyAAa6lyPMtOFZCHztE', server_url='https://parseapi.back4app.com/')
 
 
 
@@ -171,7 +169,4 @@ def main():
                 st.pyplot(fig)
                 st.header("Based on random "+str(number)+" messages.")
                 st.text("Note : Sentiment Analysis give good results if messages \nare in hinglish (hindi or english or both).")
-
-# Start the Streamlit application
-if __name__ == '__main__':
-    main()
+main()
