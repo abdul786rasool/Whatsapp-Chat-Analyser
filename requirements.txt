@@ -1,0 +1,10 @@
+streamlit
+matplotlib
+seaborn
+urlextract
+wordcloud
+pandas
+numpy
+torch
+transformers
+emoji==1.7.0
